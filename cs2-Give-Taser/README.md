@@ -1,4 +1,4 @@
-# [CS2] Give-Taser (1.0.0)
+# [CS2] Give-Taser (1.0.0) [[Download Press Here](https://github.com/oqyh/cs2-Plugins-For-Community/releases/tag/Give-Taser1.0.0)]
 
 ### Give Taser Zeus  VIPs
 
