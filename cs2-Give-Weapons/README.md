@@ -1,6 +1,6 @@
 # [CS2] Give-Weapons (1.0.0) [[Download Press Here](https://github.com/oqyh/cs2-Plugins-For-Community/releases/tag/Give-Weapons-1.0.0)]
 
-### Give Weapons To Teams
+### Give Weapons To Teams Depend Map Name
 
 ## .:[ Configuration ]:.
 
