@@ -1,6 +1,12 @@
+# Download:  [Give-Healthshot-GoldKingZ(1.0.0).zip](https://github.com/user-attachments/files/19874350/Give-Healthshot-GoldKingZ.1.0.0.zip)
+
 # [CS2] Give-Healthshot-GoldKingZ (1.0.0)
 
 Give Healthshot Depend Players Kills
+
+
+
+
 
 ![Healthshot](https://github.com/user-attachments/assets/6d938ba6-7b4b-4460-828d-6df3de97dfa4)
 
