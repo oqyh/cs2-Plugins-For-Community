@@ -34,7 +34,7 @@ namespace Give_Healthshot_GoldKingZ;
 public class GiveHealthshotGoldKingZ : BasePlugin
 {
     public override string ModuleName => "Give Healthshot Depend Players Kills";
-    public override string ModuleVersion => "1.0.0";
+    public override string ModuleVersion => "1.0.1";
     public override string ModuleAuthor => "Gold KingZ";
     public override string ModuleDescription => "https://github.com/oqyh/cs2-Plugins-For-Community";
 
@@ -83,6 +83,8 @@ public class GiveHealthshotGoldKingZ : BasePlugin
 
             if(!Configs.GetConfigData().GiveHealthShotOnNewRound)
             {
+                if(!Configs.GetConfigData().StackHealthShots && attacker.PlayerHasHealthShot())return HookResult.Continue;
+
                 if( g_Main.Player_Data[attacker].Kills >= Configs.GetConfigData().GiveHealthShotIfxKills)
                 {
                     g_Main.Player_Data[attacker].Player.GiveNamedItem(CsItem.Healthshot);
@@ -113,12 +115,13 @@ public class GiveHealthshotGoldKingZ : BasePlugin
         Helper.AddPlayerInGlobals(player);
 
         if(!Configs.GetConfigData().GiveHealthShotOnNewRound)return HookResult.Continue;
-
+        if(!Configs.GetConfigData().StackHealthShots && player.PlayerHasHealthShot())return HookResult.Continue;
 
         Server.NextFrame( ()=> 
         {
             if (!player.IsValid() || !g_Main.Player_Data.ContainsKey(player)) return;
             if(!Configs.GetConfigData().StackHealthShots && player.PlayerHasHealthShot())return;
+            
 
             if( g_Main.Player_Data[player].Kills >= Configs.GetConfigData().GiveHealthShotIfxKills)
             {
