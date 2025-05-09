@@ -1,6 +1,6 @@
-# Download:  [Give-Healthshot-GoldKingZ(1.0.0).zip](https://github.com/user-attachments/files/19874350/Give-Healthshot-GoldKingZ.1.0.0.zip)
+# Download:  [Give-Healthshot-GoldKingZ(1.0.1).zip](https://github.com/user-attachments/files/20127317/Give-Healthshot-GoldKingZ.1.0.1.zip)
 
-# [CS2] Give-Healthshot-GoldKingZ (1.0.0)
+# [CS2] Give-Healthshot-GoldKingZ (1.0.1)
 
 Give Healthshot Depend Players Kills
 
@@ -62,6 +62,9 @@ Give Healthshot Depend Players Kills
 
 <details>
 <summary><b>📋 View Version History</b> (Click to expand 🔽)</summary>
+
+### [1.0.1]
+- Fix Bug `StackHealthShots`
 
 ### [1.0.0]
 - Initial plugin release
