@@ -1,0 +1,5 @@
+{
+	"PrintChatToAll.CT.Team": "CT",
+	"PrintChatToAll.T.Team": "T",
+	"PrintChatToAll.Restart": "{green}[Restart] {grey}Restarting Server, Last Player Alive {lime}{0}/{1}"
+}
