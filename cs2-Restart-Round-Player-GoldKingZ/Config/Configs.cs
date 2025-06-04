@@ -264,7 +264,7 @@ namespace Restart_Round_Player_GoldKingZ.Config
             }
 
             [BreakLine("{space}----------------------------[ ↓ Main Config ↓ ]----------------------------{space}")]
-            [Comment("Include Players In Counting?\ntrue = Yes\nfalse = No")]
+            [Comment("Include Bots As Players?\ntrue = Yes\nfalse = No")]
             public bool IncludeBotsAsCouting { get; set; }
 
             [Comment("Custom Cfg When 1 Player Alive On CT/T (Located in csgo/cfg/)\n\"\" = Disable")]
